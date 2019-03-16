@@ -3,35 +3,202 @@
 }
 body {
     background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image img{
+    max-width: 100%;
+    max-height: 80%;
+    margin-bottom: 15px;
+    filter: opacity(.8);
+    border-bottom: 5px solid #2a2046;
+    filter: sepia(100%) saturate(280%) brightness(70%) hue-rotate(190deg);
+}
+.welcome{
+    max-width:960px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: justify;
+    border: .5px solid #555555;
+}
+
+.intro {
+    font-size:30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #2a2046;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .main-title {
-    background: rgb(0,0,0);
-background: linear-gradient(0deg, rgb(1, 44, 14) 0%, rgb(30, 68, 46) 5.0%, rgb(64, 151, 47) 100%);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2a2046;
+    font-family: 'Ubuntu', sans-serif;
     color:white;
+    font-family: 'Roboto', sans-serif;
+
     
 }
 
+#pets {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1980px;
+    justify-content: center;
+}
 .name {
-    padding: 5px;
+    padding: 0px;
     background-color: #f0f0f0;
     border-bottom: .5px solid #555555;
-    border-radius: 3%;
+    border-radius: 3% 3% 0% 0%;
+    margin: 2px;
 }
 .card {
-    background-color: white;
-    width: 300px;
+    width:300px;
+    background-color: WHITE;
     margin: 10px;
-    border: .5px solid #555555;
-    border-radius: 3%;
+    padding:0px;
+    box-shadow: 2px 2px 5px .4px #2a2046;
+    border: 1px solid #a8a7a7;
+    border-radius: 5px;
     text-align: center;
 }
 
 .card img{
-    width: 250px;
+    width: 200px;
     margin: 10px;
     border: .5px solid #555555;
     border-radius: 3%;
+    filter: grayscale();
+    
 }
 
+.card img:hover{
+    width: 200px;
+    margin: 10px;
+    border: .5px solid #555555;
+    border-radius: 3%;
+    filter: none;
+    
+}
+
+
+#dino {
+    background-color: rgb(180, 163, 245);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin: 5px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#cat{
+    background-color: rgb(111, 76, 175);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin: 5px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#dog {
+    background-color: rgb(68, 0, 156);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin: 5px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#all{
+    background-color: rgb(51, 41, 95);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin: 5px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#dino:hover {
+    opacity:1;
+}
+
+#cat:hover {
+    opacity:1;
+}
+
+#dog:hover {
+    opacity:1;
+}
+
+#all:hover {
+    opacity:1;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.dino{
+    background-color: rgb(180, 163, 245);
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+.cat{
+    background-color: rgb(111, 76, 175);
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+.dog{
+    background-color: rgb(68, 0, 156);
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+.description {
+    height: 85px;
+    margin: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2a2046;
+    color: white;
+    margin-top:30px;
+}
