@@ -2,6 +2,9 @@
 # Pet Adoption
 This page is my pet adoption page. It allows you to view all available pets and you can also filter pets by type by selecting the relevant buttons.
 
+## Screenshot
+
+![pet adoption screenshot](https://github.com/jeressia/pet-adoption/blob/master/petadoption.png?raw=true)
 ## Getting Started
 ```
 $ git clone ---
